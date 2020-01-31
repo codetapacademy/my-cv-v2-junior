@@ -1,26 +1,34 @@
-'use strict';
+"use strict";
 
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 import {
   getJsonData,
   printError,
   fixWindows10GulpPathIssue,
   printCompile,
   logError
-} from './util/util';
+} from "./util/util";
 
-const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) => {
+const pug = ({
+  gulp,
+  taskTarget,
+  config,
+  plugins,
+  args,
+  browserSync,
+  baseUrl
+}) => {
   const dir = config.directory;
   const dataPath = path.join(dir.source, dir.data);
-  const embedPath = path.join(taskTarget, 'embed.css');
+  const embedPath = path.join(taskTarget, "embed.css");
 
-  gulp.task('pug', () => {
+  gulp.task("pug", () => {
     printCompile(compileMode, args);
     let data = getJsonData({ dataPath }) || {},
       reload = true;
 
-    browserSync.sockets.emit('msg', {
+    browserSync.sockets.emit("msg", {
       title: `<div style='font-size: 3rem; text-align-center'>Rerefshing web page</div>`,
       body: `<h1 style='color: black; font-size: 2rem'>as you've made changes <br>to your PUG file 💃</h1>`
     });
@@ -29,32 +37,29 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
       gulp
         // target pug files
         .src([
-          path.join(dir.source, '**/*.pug'),
+          path.join(dir.source, "**/*.pug"),
           // Ignore files and folders that start with '_'
-          '!' + path.join(dir.source, '{**/_*,**/_*/**}')
+          "!" + path.join(dir.source, "{**/_*,**/_*/**}")
         ])
         // .pipe(plugins.debug())
         // Only deal with files that change in the pipeline
         .pipe(
           plugins.if(
-            compileMode === 'current',
+            compileMode === "current",
             plugins.changedInPlace({ firstPass: true })
           )
         )
         // Render if any pug files is changed and compare
         // the output with the destination file
+        .pipe(plugins.if(compileMode === "all", plugins.changed(taskTarget)))
         .pipe(
-          plugins.if(
-            compileMode === 'all',
-            plugins.changed(taskTarget)
-          )
+          plugins.plumber({
+            errorHandler: plugins.notify.onError({
+              title: "Error converting PUG",
+              message: "Error: <%= error.message %>"
+            })
+          })
         )
-        .pipe(plugins.plumber({
-          errorHandler: plugins.notify.onError({
-            title: 'Error converting PUG',
-            message: 'Error: <%= error.message %>'
-          })}
-        ))
         // compile pug to html
         .pipe(
           plugins.pug({
@@ -71,14 +76,14 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
             }
           })
         )
-        .pipe(plugins.notify({
-          title: 'Pug Starter - CodeTap',
-          message: 'Converting PUG into beautiful HTML'
-        }))
-        .on('error', function(error) {
+        // .pipe(plugins.notify({
+        //   title: 'Pug Starter - CodeTap',
+        //   message: 'Converting PUG into beautiful HTML'
+        // }))
+        .on("error", function(error) {
           browserSync.notify(printError(error), 25000);
           reload = false;
-          this.emit('end');
+          this.emit("end");
           logError(error.name, error.message);
         })
         // Check if embed.css exists and use inlineSource to inject it
@@ -86,8 +91,8 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
           plugins.if(
             fs.existsSync(embedPath),
             plugins.inlineSource({
-              rootpath: path.join(__dirname, '..'),
-              attribute: 'embed',
+              rootpath: path.join(__dirname, ".."),
+              attribute: "embed"
             })
           )
         )
@@ -99,7 +104,7 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
           })
         )
         .pipe(gulp.dest(path.join(taskTarget)))
-        .on('end', () => {
+        .on("end", () => {
           reload && browserSync.reload();
         })
     );
@@ -107,5 +112,3 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
 };
 
 export default pug;
-
-
