@@ -19,6 +19,26 @@
   color: #fff;
 }
 
+button i[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.button__pill--blue {
+  height: 40px;
+  margin: 20px auto 0;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+}
+
+.button__pill--blue {
+  background-color: #1875f0;
+}
+
 .about-me__main-title,
 .about-me__sub-title {
   // whatever goes in here
