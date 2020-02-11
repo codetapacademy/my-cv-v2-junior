@@ -1,12 +1,5 @@
 //- pre=JSON.stringify(data["about-page"],null, 2)
-.column(span="row")
-    .page-title__wrapper
-        .page-title=data["about-page"].pageTitle
-.column(span="row" height="10")
-.column(span="row")
-    button.button-wrapper__red-content
-        i.icon__youtube
-.column(span="row" height="10")
+include ../page-title/page-title
 .column(span="row")
     h1.page-title__name=data["about-page"].pageTitleName
 .column(span="row" height="10")
