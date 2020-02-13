@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Get in touch",
+  "avatar": "asset/image/avatar_2.jpg",
+  "iconList": [
+    {
+      "icon": "codetap",
+      "title": "Codetap",
+      "descriptiom": "dadsvdfvdfvdfv",
+      "label": "Codetap",
+      "link": "https://codetao.academy.com"
+    },
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "descriptiom": "aaaaaaawdawdawdawaaaaaaa1111111",
+      "label": "github",
+      "link": "https://github.com"
+    },
+    {
+      "icon": "linkedin",
+      "title": "Linkedin",
+      "descriptiom": "aaaaaaawdawdawdaw",
+      "label": "Linkedin",
+      "link": "https://linkedin.com"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stackoverflow",
+      "descriptiom": "aaaaaaawdawdawdaw",
+      "label": "stackoverflow",
+      "link": "https://stackoverflow.com"
+    },
+    {
+      "icon": "codewars",
+      "title": "codewars",
+      "descriptiom": "aaaaaaawdawdawdaw",
+      "label": "codewars",
+      "link": "https://codewars.com"
+    },
+    {
+      "icon": "facebook",
+      "title": "Facebook",
+      "descriptiom": "aaaaaaawdawdawdaw",
+      "label": "Facebook",
+      "link": "https://facebook.com"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "descriptiom": "aaaaaaawdawdawdaw",
+      "label": "instagram",
+      "link": "https://instagram.com"
+    },
+    {
+      "icon": "twitter",
+      "title": "witter",
+      "descriptiom": "aaaaaaawdawdawdaw",
+      "label": "twitter",
+      "link": "https://twitter.com"
+    }
+  ]
+}

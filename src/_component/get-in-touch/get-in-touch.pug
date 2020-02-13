@@ -1,11 +1,16 @@
-- var pageTitle = data["get-in-touch"].pageTitle
+- var pageTitle = data.getintouch.pageTitle
 include ../page-title/page-title
 .column(span="row")
     .git__profile-image
-.column(span="row")
+.column(span="row" height="10")
 
-.column(span="1")
-    .git__icon-blue
-        .icon__facebook
-    .git__icon-blue
-        .icon__facebook
+each icon in data.getintouch.iconList
+    .column(span="1")
+        .git__icon-blue
+            div(class=`icon__${icon.icon}`)
+.column(span="row" height="10")
+.column(span="row")
+    button.button-wrapper__green-arrow
+        i.icon__arrow-down
+.column(span="row" height="10")
+
