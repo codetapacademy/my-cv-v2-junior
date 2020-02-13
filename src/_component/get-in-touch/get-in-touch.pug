@@ -5,6 +5,7 @@ include ../page-title/page-title
 .column(span="row" height="10")
 
 each icon in data.getintouch.iconList
+    input.git__input-radio(type="radio")
     .column(span="1")
         .git__icon-blue
             div(class=`icon__${icon.icon}`)

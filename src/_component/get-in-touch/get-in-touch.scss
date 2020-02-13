@@ -1,9 +1,14 @@
+.git__input-radio:checked + .column .git__icon-blue {
+  background-color: #d52727;
+}
+
 .git__icon-blue {
   background-color: #1875f0;
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
   color: white;
+  cursor: pointer;
 
   [class^="icon__"] {
     top: 0;
