@@ -1,4 +1,23 @@
-.profile-image {
+.git__icon-blue {
+  background-color: #1875f0;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  color: white;
+
+  .icon__facebook {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+}
+
+.git__profile-image {
   padding-top: 100%;
   background-color: white;
   position: relative;
