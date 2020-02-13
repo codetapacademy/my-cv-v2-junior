@@ -6,4 +6,4 @@ There are a few exceptions.
 1. You should change the `package.json` config section to meet your needs. If you plan to deploy to https://github.io make sure to update the `config.githubUrl` to match your project.
 1. Definitely update the contents of the `README.md` file from the root of the project (not this file) at least when you're done with the project if not sooner.
 
-consider adding at least `index.pug` to this folder to start
+consider adding at least `index.pug` to this folder to 
