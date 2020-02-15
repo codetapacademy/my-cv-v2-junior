@@ -12,6 +12,11 @@
   color: white;
   cursor: pointer;
 
+  &[for="input__label--reset"] {
+    width: 40px;
+    color: white;
+  }
+
   [class^="icon__"] {
     top: 0;
     left: 0;
@@ -45,4 +50,23 @@
     right: 10px;
     left: 10px;
   }
+}
+
+.git-description {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+}
+
+.git-description__header {
+  padding: 20px;
+  display: flex;
+}
+
+.git-description__title {
+  flex-grow: 1;
+  line-height: 40px;
+}
+
+.git-description__close {
+  line-height: 40px;
 }

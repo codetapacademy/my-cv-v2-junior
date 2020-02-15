@@ -12,11 +12,14 @@ each icon, key  in data.getintouch.iconList
             i(class=`icon__${icon.icon}`)
 .column(span="row" height="10")
 .column(span="row")
-    .my-details
-        input.git__input-radio(type="radio" name="same-name" id=`input__label--reset`)
-        .column(span="1")
-            label(for=`input__label--reset`).git__icon-blue
-                i(class=`icon__cross`)
+    .git-description
+        .git-description__header
+            .git-description__title addaq
+            .git-description__close
+                input.git__input-radio(type="radio" name="same-name" id=`input__label--reset`)
+                .column(span="1")
+                    label(for=`input__label--reset`).git__icon-blue
+                        i(class=`icon__cross`)
 
 .column(span="row" height="10")
 .column(span="row")
