@@ -4,11 +4,11 @@ include ../page-title/page-title
     .git__profile-image
 .column(span="row" height="10")
 
-each icon in data.getintouch.iconList
-    input.git__input-radio(type="radio")
+each icon, key  in data.getintouch.iconList
+    input.git__input-radio(type="radio" name="key" id=`input__label--${key}`)
     .column(span="1")
-        .git__icon-blue
-            div(class=`icon__${icon.icon}`)
+        label(for=`input__label--${key}`).git__icon-blue
+            i(class=`icon__${icon.icon}`)
 .column(span="row" height="10")
 .column(span="row")
     button.button-wrapper__green-arrow
