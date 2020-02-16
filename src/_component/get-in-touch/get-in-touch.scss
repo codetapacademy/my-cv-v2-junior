@@ -14,7 +14,7 @@
 
   &[for="input__label--reset"] {
     width: 40px;
-    color: white;
+    // color: white;
   }
 
   [class^="icon__"] {
@@ -55,6 +55,7 @@
 .git-description {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
   border-radius: 6px;
+  background-color: #fff;
 }
 
 .git-description__header {
@@ -65,8 +66,26 @@
 .git-description__title {
   flex-grow: 1;
   line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
 }
 
 .git-description__close {
   line-height: 40px;
+}
+
+.git-description__body,
+.git-description__footer {
+  padding: 20px;
+}
+
+.git-description__body {
+  border-bottom: 2px solid #f5f5f5;
+  border-top: 2px solid #f5f5f5;
+}
+
+.git-description__text {
+  font-size: 14px;
+  line-height: 30px;
 }
