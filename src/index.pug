@@ -1,19 +1,8 @@
 doctype html
 html
   head
-    title MY Updated CV
+    title My Awesome CV
+    link(rel="stylesheet", href="style.css")
   body
-    .content
-      .section-title Welcome to my CV
-      button.disc
-        i.icon__youtube
-        span.button-text YT
-      h1 Virgil Adrian Ciociu
-      h2 Junior Developer 
-      h3 About me
-      .description-box__with-shadow
-      p I will make the Developer world a better place every day. I translate geek into English and I love to be part of a team and feel that I'm usefool.
-
-      button.pill
-        i.icon__download
-        span.button-text Download CV
+  .content
+    include _component/about-me/about-me.pug
