@@ -1,6 +1,7 @@
 - var sectionTitle = data['open-source'].sectionTitle
 include ../section-title/section-title 
 
+//- pre=JSON.stringify(data[`open-source`], null, 2)
 .column(span="row")
     .open__stats=data[`open-source`].stats.title
 .column(span="row")
@@ -15,9 +16,11 @@ include ../section-title/section-title
 
 .column(span="row")
   .open__project=data[`open-source`].projects.projectName
-   each project in data[`open-source`].projects.project
-
-
-
-
+    each project in data[`open-source`].projects.project  
+      div= project.projectName
+      ul 
+        each haha in project.skillsGained
+          li= haha.skillName 
+          li= haha.precentage 
+          li= haha.color 
 

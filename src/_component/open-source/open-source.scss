@@ -11,10 +11,11 @@
     grid-template-columns: 40px 1fr auto;
     grid-template-rows: 1fr 1fr;
 
-    &first-child {
-        border:0; 
-    }
 
+    &:last-of-type{
+        border-bottom: 0;
+    }
+    
 .open__icon i[class="icon_codewars"] {
     font-size: 23px;
   }

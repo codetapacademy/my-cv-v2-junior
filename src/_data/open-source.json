@@ -1,7 +1,7 @@
 {
     "sectionTitle": "Open Source",
-    "stats" : {
-        "title":"Stats",
+    "stats": {
+        "title": "Stats",
         "statsList": [
             {
                 "icon": "github",
@@ -9,17 +9,17 @@
                     "Contribution last year:433",
                     "Longest streak: 767"
                 ]
-            }, 
+            },
             {
-                "icon":"codewars",
+                "icon": "codewars",
                 "description": [
                     "Rank: 33",
-                    "Honor: 432"     
+                    "Honor: 432"
                 ]
             },
             {
-                "icon":"stackoverflow",
-                "description":[
+                "icon": "stackoverflow",
+                "description": [
                     "Top: --",
                     "Reputation: --",
                     "People reached: --",
@@ -27,116 +27,115 @@
                 ]
             }
         ]
-    }, 
-        "projects":{
-            "projectName":"GitHub projects",
-            "project": [
-                {
-                  "projectName":"My Cv V2 Junior",
-                  "skillsGained":[
+    },
+    "projects": {
+        "projectName": "GitHub projects",
+        "project": [
+            {
+                "projectName": "My Cv V2 Junior",
+                "skillsGained": [
                     {
-                      "skillName":"HTML",
-                      "procentage":"39.4",
-                      "color":"#F0E218"
+                        "skillName": "HTML",
+                        "procentage": "39.4",
+                        "color": "#F0E218"
                     },
                     {
-                      "skillName":"JavaScript",
-                      "procentage":"28.4",
-                      "color":"#1875F0"
+                        "skillName": "JavaScript",
+                        "procentage": "28.4",
+                        "color": "#1875F0"
                     },
                     {
-                      "skillName":"TypeScript",
-                      "procentage":"--",
-                      "color":"#20D55D"
+                        "skillName": "TypeScript",
+                        "procentage": "--",
+                        "color": "#20D55D"
                     },
                     {
-                      "skillName":"CSS",
-                      "procentage":"7.8",
-                      "color":"#D52027"
+                        "skillName": "CSS",
+                        "procentage": "7.8",
+                        "color": "#D52027"
                     }
-                  ],
-                   "projectStats":[
-                     {
-                       "projectStatIcon":"commits",
-                       "projectStatInfo":"Commits: --"
-                     },
-                     {
-                       "projectStatIcon":"stars",
-                       "projectStatInfo":"Stars: --"
-                     },
-                     {
-                       "projectStatIcon":"forks",
-                       "projectStatInfo":"Forks: --"
-                     }
-                   ],
-                   "projectInfo":"fdssd",
-                   "projectIcon":{
-                     "importantIcon":"info",
-                     "extraIcon":[
-                       {
-                         "icon":"github",
-                         "link":"https://github.com/blowymind99/my-cv-v2-junior"
-                       },
-                       {
-                         "icon":"youtube",
-                         "link":"https://www.youtube.com/watch?v=KT18D3kxxB4&t=15s"
-                       }
-                      ]
+                ],
+                "projectStats": [
+                    {
+                        "projectStatIcon": "commits",
+                        "projectStatInfo": "Commits: --"
                     },
-                    "projectLink":{
-                       "icon":"github",
-                       "description":"https://github.com/blowymind99/my-cv-v2-junior"
+                    {
+                        "projectStatIcon": "stars",
+                        "projectStatInfo": "Stars: --"
+                    },
+                    {
+                        "projectStatIcon": "forks",
+                        "projectStatInfo": "Forks: --"
+                    }
+                ],
+                "projectInfo": "fdssd",
+                "projectIcon": {
+                    "importantIcon": "info",
+                    "extraIcon": [
+                        {
+                            "icon": "github",
+                            "link": "https://github.com/blowymind99/my-cv-v2-junior"
+                        },
+                        {
+                            "icon": "youtube",
+                            "link": "https://www.youtube.com/watch?v=KT18D3kxxB4&t=15s"
                         }
+                    ]
                 },
-                {
-                    "projectName":"My Cv V2 Starter",
-                    "skillsGained":[
-                       {
-                         "skillName":"HTML",
-                         "percentage":"100",
-                         "color":"#F0E218"
-                        },
-                        {
-                          "skillName":"JavaScript",
-                          "percentage":"--",
-                          "color":"#1875F0"
-                        },
-                        {
-                          "skillName":"JavaScript",
-                          "percentage":"--",
-                          "color":"#1875F0"
-                        }
-                    ],
-                    "projectStats":[
-                      {
-                        "projectStatIcon":"commits",
-                        "projectStatInfo":"Commits: --"    
-                      },
-                      {
-                        "projectStatIcon":"stars",
-                        "projectStatInfo":"Stars: --"    
-                      },
-                      {
-                        "projectStatIcon":"forks",
-                        "projectStatInfo":"Forks: --"    
-                      }
-                    ],
-                    "projectInfo":"Info About v2starter",
-                    "projectIcon":{
-                      "importantIcon":"info",
-                      "extraIcon":[
-                        {
-                          "icon":"github",
-                          "link":"https://github.com/blowymind99/my-cv-v2-starter"
-                        }
-                      ]
-                    },
-                    "projectLink":{
-                      "icon":"github",
-                      "description":"https://github.com/blowymind99/my-cv-v2-starter"
-                    }
+                "projectLink": {
+                    "icon": "github",
+                    "description": "https://github.com/blowymind99/my-cv-v2-junior"
                 }
-            ]
-        }
+            },
+            {
+                "projectName": "My Cv V2 Starter",
+                "skillsGained": [
+                    {
+                        "skillName": "HTML",
+                        "percentage": "100",
+                        "color": "#F0E218"
+                    },
+                    {
+                        "skillName": "JavaScript",
+                        "percentage": "--",
+                        "color": "#1875F0"
+                    },
+                    {
+                        "skillName": "JavaScript",
+                        "percentage": "--",
+                        "color": "#1875F0"
+                    }
+                ],
+                "projectStats": [
+                    {
+                        "projectStatIcon": "commits",
+                        "projectStatInfo": "Commits: --"
+                    },
+                    {
+                        "projectStatIcon": "stars",
+                        "projectStatInfo": "Stars: --"
+                    },
+                    {
+                        "projectStatIcon": "forks",
+                        "projectStatInfo": "Forks: --"
+                    }
+                ],
+                "projectInfo": "Info About v2starter",
+                "projectIcon": {
+                    "importantIcon": "info",
+                    "extraIcon": [
+                        {
+                            "icon": "github",
+                            "link": "https://github.com/blowymind99/my-cv-v2-starter"
+                        }
+                    ]
+                },
+                "projectLink": {
+                    "icon": "github",
+                    "description": "https://github.com/blowymind99/my-cv-v2-starter"
+                }
+            }
+        ]
+    }
 }
-
