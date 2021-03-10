@@ -12,6 +12,12 @@ include ../section-title/section-title
           .open__stats-description 
             each info in item.description 
              p=info
+
 .column(span="row")
-  
+  .open__project=data[`open-source`].projects.projectName
+   each project in data[`open-source`].projects.project
+
+
+
+
 
