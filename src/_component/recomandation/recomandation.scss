@@ -37,14 +37,10 @@ border-radius: 50%;
   color: #808080;
   }
 
-.descriereM.hisjob {
-  grid-column: 2/3;
-  display: flex;
-  align-items: center;
-  grid-row: 1/2;
-  font-weight: 500;
-  font-size: 16px;
+.descriereM-hisjob {
+  @extend %descrierejobd ;
   color: #808080;
+
   }
 
 .recomandare-descriere {

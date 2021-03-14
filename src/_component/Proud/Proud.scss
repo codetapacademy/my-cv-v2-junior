@@ -1,0 +1,14 @@
+.titlu {
+  @extend %subtitle
+}
+
+.descriere {
+  @extend %subtitle;
+
+}
+
+.perioada {
+  @extend %subsubtitle;
+  display: flex;
+  justify-content: flex-end;
+}

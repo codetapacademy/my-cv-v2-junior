@@ -1,0 +1,30 @@
+{
+  "sectionTitle":"I'm Proud",
+  "data": {
+    "titlu":"Awards and Achievements",
+    "descriere" : [
+      {
+        "descriereP":"The best Web Developer what you can find ",
+        "year-start":"2010",
+        "year-end":"2014"
+
+      },
+      {
+        "descriereP":"He did a great job",
+        "year-start":"2014",
+        "year-end":"2015"
+      },
+      {
+        "descriereP":"He did a great job",
+        "year-start":"2015",
+        "year-end":"2017"
+      },
+      {
+        "descriereP":"He did a great job",
+        "year-start":"2017",
+        "year-end":"2019"
+      }
+    ]
+  }
+}
+

@@ -7,6 +7,15 @@
   list-style-type: none;
 }
 
+.descriereM-hisjob {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  grid-row: 2/2;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 .ab__stat-item .ab__proiect-list, .ab__stat-item .ab__proiect, .ab__stat-item, .ab__stat-list,
 .ab__proiect-item, .experience__item:not(:last-child), .skills__item:not(:last-child), .skills__list, .experience__item {
   border: 2px solid #707070;
@@ -15,6 +24,26 @@
 .experience__item {
   display: grid;
   grid-template-columns: auto 1fr auto;
+}
+
+.recomandare-descriere {
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  background-color: white;
+  margin: 25px 0;
+  position: relative;
+}
+.recomandare-descriere::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  background-color: white;
+  top: -7px;
+  left: 15px;
+  clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+  transform: rotate(45deg);
 }
 
 recent-title,
@@ -69,6 +98,26 @@ recent-title,
   font-size: 12px;
   font-style: italic;
   padding: 0 20px 10px 20px;
+}
+
+.recomandare-descriere {
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  background-color: white;
+  margin: 25px 0;
+  position: relative;
+}
+.recomandare-descriere::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  background-color: white;
+  top: -7px;
+  left: 15px;
+  clip-path: polygon(-6px -6px, 100% 0, 0 100%);
+  transform: rotate(45deg);
 }
 
 * {
@@ -1015,4 +1064,112 @@ a.button__download--albastrel {
 .recent__proiect-skills,
 .old__proiect-skills {
   padding-bottom: 10px;
+}
+
+.recomandare {
+  margin-bottom: 20px;
+}
+
+.recomandare-data {
+  display: grid;
+  grid-template-columns: 64px auto;
+  column-gap: 10px;
+  grid-template-rows: 32px 32px;
+  margin-bottom: 15px;
+}
+
+.rec-imagine {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  position: relative;
+  box-shadow: 0 0px 6px black;
+  border-radius: 50%;
+}
+.rec-imagine .imagine {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-size: cover;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.descriereM-nume {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  grid-row: 1/2;
+  font-weight: 500;
+  font-size: 22px;
+  color: #808080;
+}
+
+.descriereM-data {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  grid-row: 2/2;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1822F5;
+}
+
+.recomandare-descriere {
+  padding: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #808080;
+  margin: 25px 0 20px 0;
+}
+
+.recomandare {
+  margin-bottom: 20px;
+}
+
+.recomandare-data {
+  display: grid;
+  grid-template-columns: 64px auto;
+  column-gap: 10px;
+  grid-template-rows: 32px 32px;
+  margin-bottom: 15px;
+}
+
+.rec-imagine {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  position: relative;
+  box-shadow: 0 0px 6px black;
+  border-radius: 50%;
+}
+.rec-imagine .imagine {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-size: cover;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.descriereM-nume {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  grid-row: 1/2;
+  font-weight: 500;
+  font-size: 22px;
+  color: #808080;
+}
+
+.descriereM-hisjob {
+  color: #808080;
+}
+
+.recomandare-descriere {
+  padding: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #808080;
+  margin: 25px 0 20px 0;
 }

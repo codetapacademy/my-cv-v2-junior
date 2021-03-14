@@ -1,0 +1,16 @@
+- var sectionTitle = data['Proud'].sectionTitle
+include ../section-title/section-title.pug
+
+.column(span="row" height='10')
+.column(span="row")
+    .titlu=data.Proud.data.titlu
+    ul.descriere__munca
+      each descriere in data.Proud.data.descriere
+        .perioada=`${data.yyear-start} - ${data.year-end}`
+        .descriere=descriere.descriereP
+
+.column(span="row" height="10")
+.column(span="row")
+  button.buton__disc-dolarel
+    i.icon__arrow-down
+.column(span="row" height="10")
