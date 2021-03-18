@@ -54,7 +54,8 @@
   &::before {
     position: absolute;
     content: "";
-    background-color: #bbbcbe;
+    background-color:#3FD5BE;
+    ;
     left: -36px;
     right: -36px;
     top: 0;
@@ -66,10 +67,11 @@
   text-align: center;
   height: 40px;
   line-height: 40px;
-  color: #a5456c;
+  color: white;
   font-size: 20px;
   font-weight: bold;
   position: relative;
+  font-size: 30px;
 }
 
 .about-me__name,
