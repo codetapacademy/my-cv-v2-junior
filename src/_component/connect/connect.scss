@@ -1,3 +1,22 @@
+.connect__disc {
+  background-color: #3FD5BE;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+}
+
+.icon__codetap {
+  color: #ffffff;
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .connect__avatar {
   padding-top: 100%;
   background-color:#ffffff;
