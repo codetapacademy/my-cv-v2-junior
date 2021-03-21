@@ -1,33 +1,35 @@
 .connect__disc {
-  background-color: #3FD5BE;
+  background-color: #3fd5be;
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
+  color: #ffffff;
 }
 
 .icon__codetap {
-  color: #ffffff;
   position: absolute;
   top: 0%;
   bottom: 0;
   right: 0;
   left: 0;
   display: flex;
+  
   justify-content: center;
   align-items: center;
+
 }
 
 .connect__avatar {
   padding-top: 100%;
-  background-color:#ffffff;
+  background-color: #ffffff;
   position: relative;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.30);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   transform: rotate(-3deg);
 
   &::after {
-    content: '';
-    background-image: url('asset/image/ada-avatar.jpeg');
+    content: "";
+    background-image: url("asset/image/ada-avatar.jpeg");
     position: absolute;
     border-radius: 6px;
     top: 10px;
@@ -36,6 +38,6 @@
     left: 10px;
     background-size: cover;
     font-size: 30px;
-  background-color:#3FD5BE;
+    background-color: #d52027;
   }
 }
