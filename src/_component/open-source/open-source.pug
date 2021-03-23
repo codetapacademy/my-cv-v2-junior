@@ -1,2 +1,14 @@
 - var sectionTitle = data['open-source'].sectionTitle;
 include ../section-title/section-title
+
+.column(span="row")
+    .open__stats=data['open-source'].stats.title
+.column(span="row")
+    ul.open__list 
+        each item in data['open-source'].stats.statsList
+            li.open__item
+                span.open__icon(class=`icon__${item.icon}`)
+                .open__stats-description 
+                    each info in item.description 
+                      p=info
+.column(span="row")

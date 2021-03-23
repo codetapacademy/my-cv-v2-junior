@@ -1,3 +1,33 @@
 {
-    "sectionTitle" : "Open Source"
+    "sectionTitle" : "Open Source",
+    "stats" : {
+        "title":"Stats",
+        "statsList": [
+            {
+                "icon": "github",
+                "description": [
+                    "Contributiion last year: 0",
+                    "Longest streak: 0"
+                ]
+            },
+            {
+                "icon": "codewars",
+                "description": [
+                    "Rank: 1",
+                    "Honnor: 1"
+                ]
+            
+            },
+            {
+                "icon": "stackoverflow",
+                "description":[
+                    "Top: 2",
+                    "Reputation: 2",
+                    "People reached: 2",
+                    "Answers: 2"
+
+                ]
+            }
+        ]
+    }
 }
