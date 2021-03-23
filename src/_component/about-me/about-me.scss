@@ -62,10 +62,7 @@
 }
 
 .about-me__know-better { 
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 600;
-    color: rgb(118, 128, 160);
+    @extend %subtitle 
 }
 
 .description-box__shadow { 

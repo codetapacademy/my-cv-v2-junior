@@ -16,11 +16,35 @@ include ../section-title/section-title
 
 .column(span="row")
   .open__project=data[`open-source`].projects.projectName
-    each project in data[`open-source`].projects.project  
-      div= project.projectName
-      ul 
-        each haha in project.skillsGained
-          li= haha.skillName 
-          li= haha.precentage 
-          li= haha.color 
+  each project, key in data[`open-source`].projects.project  
+      input(
+        type="checkbox"
+        id=`project_checkbox--${key}`
+          ).open__checkbox
+      .project__item
+        .project__name= project.projectName
+        .open__skill-list
+          each skill in project.skillsGained 
+            span.skill__name= skill.skillName+ " "
+        .project__percentage 
+          each item in project.skillsGained 
+            span(
+              class=`coloana-${item.skillName}`
+              style=`width: ${item.precentage}%`
+            )
+        ul.open__body
+          li 
+            .open_dots 
+              each item in project.skillsGained 
+                .open_dot 
+                  .open__dot-color(style=`background-color: ${item.color}`)
+                  .open__dot-name=item.skillName+ " "+item.precentage+ "%"
+          li.open__data 
+            each projectStat in project.projectStats 
+              .open__stat
+                .open__stat-icon 
+                  i(class=`icon__${projectStat.projectStatIcon}`) 
+                .open_stat-info=projectStat.projectStatInfo 
+        
+      
 

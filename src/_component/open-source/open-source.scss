@@ -15,7 +15,7 @@
     &:last-of-type{
         border-bottom: 0;
     }
-    
+
 .open__icon i[class="icon_codewars"] {
     font-size: 23px;
   }
@@ -39,4 +39,43 @@
     line-height: 22px;
     padding: 10px;
     padding-left: 0;
+}
+
+.open__project,
+.open__stats {    
+    @extend %subtitle;
+}
+
+.project__item {
+  background-color: white;
+  color: #707070;
+  @extend %rounder-border-list;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.project__name {
+    @extend %project-name
+}
+
+.open__skill-list{
+    @extend %skills-list;
+}
+
+.skill__name {
+    font-size: 12px;
+    // padding: 46px 20px;
+    font-style: italic;
+    border-bottom: 0;
+}
+
+.project__percentage {
+  background-color: white;
+  line-height: 10px;
+  padding: 0;
+  right: 0;
+  left:0;
+  bottom: -1px;
+  font-size: 13px;
 }
