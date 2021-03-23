@@ -1,4 +1,4 @@
-- var sectionTitle = data['connect'].sectionTitle
+- var sectionTitle = data.connect.sectionTitle
 include ../section-title/section-title
 
 .column(span="row")
@@ -6,34 +6,7 @@ include ../section-title/section-title
 .column(span="row")
 .column(span="row")
 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-.column(span="1")
-  .connect__disc 
-    .icon__codetap 
-
+each social in data.connect.socialList
+  .column(span="1")
+    .connect__disc
+      i(class=`icon__${social.icon}`)
