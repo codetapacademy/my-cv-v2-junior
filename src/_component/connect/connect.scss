@@ -3,20 +3,19 @@
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
-  color: #ffffff;
-}
+  color: #fff;
 
-.icon__codetap {
-  position: absolute;
-  top: 0%;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  font-size: 9vw;
-  justify-content: center;
-  align-items: center;
-
+  [class^="icon__"] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    font-size: 9vw;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .connect__avatar {
