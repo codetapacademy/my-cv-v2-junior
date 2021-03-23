@@ -25,14 +25,14 @@
     },
     {
       "icon": "stackoverflow",
-      "title": "Stackoverflow",
+      "title": "StackOverflow",
       "description" : "abc",
       "label": "codetap.academy",
       "link": "http://codetap.academy"
     },
     {
       "icon": "codewars",
-      "title": "CodeTap",
+      "title": "CodeWars",
       "description" : "abc",
       "label": "codetap.academy",
       "link": "http://codetap.academy"

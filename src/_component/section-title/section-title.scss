@@ -1,0 +1,28 @@
+.section__title-wrapper {
+  padding: 10px;
+  height: 60px;
+  background-color: #bbbcbe;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-color:#3FD5BE;
+    left: -36px;
+    right: -36px;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.section-title {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  font-size: 30px;
+}
