@@ -9,13 +9,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: bold;
+
+  i {
+    margin-right: 12px;
+    margin-bottom: 2px;
+  }
 }
 
-.button i[class^="icon__"] {
+button[class^="button__disc"] i[class^="icon__"] {
   height: 18px;
   width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button__pill--green {
@@ -44,35 +52,6 @@
   background-color: #d52027;
 }
 
-.section__title-wrapper {
-  padding: 10px;
-  height: 60px;
-  background-color: #bbbcbe;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
-  position: relative;
-
-  &::before {
-    position: absolute;
-    content: "";
-    background-color:#3FD5BE;
-    ;
-    left: -36px;
-    right: -36px;
-    top: 0;
-    bottom: 0;
-  }
-}
-
-.section-title {
-  text-align: center;
-  height: 40px;
-  line-height: 40px;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  font-size: 30px;
-}
 
 .about-me__name,
 .about-me__position {
