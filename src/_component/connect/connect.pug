@@ -3,11 +3,15 @@ include ../section-title/section-title
 
 .column(span="row")
   .connect__avatar
-.column(span="row")
-.column(span="row")
+.column(span="row" height="10")
 
 each social in data.connect.socialList
-  input.connect__radio(type="radio")
+  input.connect__radio(
+    type="radio"
+    name="aaa"
+    value=social.title 
+    )
+
   .column(span="1")
     .connect__disc
       i(class=`icon__${social.icon}`)
