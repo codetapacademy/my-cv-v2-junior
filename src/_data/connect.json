@@ -5,72 +5,72 @@
     {
       "icon": "codetap",
       "title": "CodeTap",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "CodeTap it's the best thing that happened to me! :)",
+      "label": "codetap.academy/adelacecilia",
+      "link": "http://codetap.academy/adelacecilia"
     },
     {
       "icon": "github",
       "title": "GitHub",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.",
+      "label": "github.com/adelacecilia",
+      "link": "https://github.com/adelacecilia"
     },
     {
       "icon": "linkedin",
       "title": "LinkedIn",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "Connecting the world's professionals to make them more productive and successful.",
+      "label": "linkedin.com/in/adelaceciliasagau",
+      "link": "https://www.linkedin.com/in/adelaceciliasagau/"
     },
     {
       "icon": "stackoverflow",
       "title": "StackOverflow",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "Let's change the world, make it a better place, for you and for me!",
+      "label": "stackoverflow.com/cv/adasagau",
+      "link": "https://stackoverflow.com/cv/adasagau"
     },
     {
       "icon": "codewars",
       "title": "CodeWars",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "Simple Fun!",
+      "label": "codewars.com/users/adasagau88",
+      "link": "https://www.codewars.com/users/adasagau88"
     },
     {
       "icon": "skype",
       "title": "Skype",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "Let's talk!!! ",
+      "label": "skype.com/adasagau",
+      "link": "http://skype.com/adasagau"
     },
     {
       "icon": "facebook",
       "title": "FaceBook",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "Bring the world closer together.",
+      "label": "facebook.com/adelacecilia88",
+      "link": "https://www.facebook.com/adelacecilia88"
     },
     {
       "icon": "instagram",
       "title": "Instagram",
-      "description": "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description": "Capture and Share the World's Moments",
+      "label": "instagram.com/ada__3132",
+      "link": "https://www.instagram.com/ada__3132"
     },
     {
       "icon": "twitter",
       "title": "Twitter",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "It's what's happening",
+      "label": "twitter.com/AdaSagau",
+      "link": "https://twitter.com/AdaSagau"
     },
     {
       "icon": "udemy",
       "title": "Udemy",
-      "description" : "abc",
-      "label": "codetap.academy",
-      "link": "http://codetap.academy"
+      "description" : "be able!",
+      "label": "udemy.com/user/cecilia-adela-sagau",
+      "link": "https://www.udemy.com/user/cecilia-adela-sagau"
     }
   ]
 }
