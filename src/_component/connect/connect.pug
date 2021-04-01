@@ -18,15 +18,18 @@ each social, key in data.connect.socialList
       
 .column(span="row" height="10")
 .column(span="row")
-  .info-box__with-shadow 
-    input.connect__radio(
-      type="radio"
-      name="connect__label"
-      id=`connect__label--reset`
-    )
+  .info-box__with-arrow
+    .info-box__header
+      .info-box__title abcdefgh
+      .info-box__close
+        input.connect__radio(
+          type="radio"
+          name="connect__label"
+          id=`connect__label--reset`
+        )
 
-    label(for=`connect__label--reset`).connect__disc
-      i(class=`icon__cross`)
+        label(for=`connect__label--reset`).connect__disc
+          i(class=`icon__cross`)
 
 .column(span="row" height="10")
 .column(span="row")

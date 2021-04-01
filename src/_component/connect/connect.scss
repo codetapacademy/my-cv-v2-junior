@@ -2,6 +2,21 @@
   background-color: #d52027;
 }
 
+.info-box__with-arrow {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+.info-box__header {
+  padding: 20px;
+  display: flex;
+}
+
+.info-box__title {
+  flex-grow: 1;
+  line-height: 40px;
+}
+
 .connect__disc {
   transition: 250ms;
   display: block;
@@ -11,6 +26,11 @@
   position: relative;
   color: #fff;
   cursor: pointer;
+
+  &[for="connect__label--reset"] {
+    width: 40px;
+    color: white;
+  }
 
   [class^="icon__"] {
     position: absolute;
