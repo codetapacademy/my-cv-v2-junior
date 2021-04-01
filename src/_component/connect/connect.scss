@@ -1,20 +1,40 @@
 .connect__radio:checked + .column .connect__disc {
-  background-color: #d52027;
+  background-color: #bababa;
+}
+
+.info-box__body,
+.info-box__body {
+  padding: 20px;
+}
+
+.info-box__body {
+  border-top: 2px solid #f5f5f5;
+  border-bottom: 2px solid #f5f5f5;
 }
 
 .info-box__with-arrow {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   border-radius: 6px;
+  background-color: white;
 }
 
 .info-box__header {
   padding: 20px;
   display: flex;
+  text-transform: capitalize;
+}
+
+.info-box__paragraph {
+  font-size: 14px;
+  line-height: 30px;
+
 }
 
 .info-box__title {
   flex-grow: 1;
   line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
 }
 
 .connect__disc {
