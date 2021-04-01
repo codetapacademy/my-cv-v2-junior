@@ -2,9 +2,14 @@
   background-color: #bababa;
 }
 
-.info-box__body,
+.info-box__footer,
 .info-box__body {
   padding: 20px;
+}
+
+.info-box__footer {
+  display: flex;
+  justify-content: center;
 }
 
 .info-box__body {
@@ -17,6 +22,7 @@
   border-radius: 6px;
   background-color: white;
   position: relative;
+  margin-top: 1rem;
 
 &::after {
     content: '';

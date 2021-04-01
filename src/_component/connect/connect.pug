@@ -15,29 +15,31 @@ each social, key in data.connect.socialList
   .column(span="1")
     label(for=`connect__label--${key}`).connect__disc
       i(class=`icon__${social.icon}`)
-      
-.column(span="row" height="10")
-.column(span="row")
-  .info-box__with-arrow
-    .info-box__header
-      .info-box__title abcdefgh
-      .info-box__close
-        input.connect__radio(
-          type="radio"
-          name="connect__label"
-          id=`connect__label--reset`
-        )
 
-        label(for=`connect__label--reset`).connect__disc
-          i(class=`icon__cross`)
-    .info-box__body
-      p.info-box__paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cum ea nam expedita minima fuga architecto, itaque ullam id illo illum sint, et eos nesciunt inventore commodi quibusdam. Voluptatum, accusamus.
+each social, key in data.connect.socialList
+  .column(span="row")
+    .info-box__with-arrow
+      .info-box__header
+        .info-box__title=social.title
+        .info-box__close
+          input.connect__radio(
+            type="radio"
+            name="connect__label"
+            id=`connect__label--reset`
+          )
 
-    .info-box__footer
-      .button.button__pill--green
-        i.icon__link
-        span.text-button=data['about-me'].downloadButtonLabel
+          label(for=`connect__label--reset`).connect__disc
+            i(class=`icon__cross`)
+      .info-box__body
+        p.info-box__paragraph=social.description
 
+      .info-box__footer
+        a(
+          href=social.link
+          target="_blank"
+        ).button__pill--green
+          i.icon__link
+          span.text-button=social.label
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--blue 
