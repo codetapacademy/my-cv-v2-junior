@@ -17,7 +17,7 @@ each social, key in data.connect.socialList
       i(class=`icon__${social.icon}`)
 
 each social, key in data.connect.socialList
-  .column(span="row")
+  .column(span="row" data-info-box=key+1)
     .info-box__with-arrow
       .info-box__header
         .info-box__title=social.title
