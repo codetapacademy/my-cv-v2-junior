@@ -3,9 +3,10 @@ include ../section-title/section-title
 
 .column(span="row")
   h3.about-me__info=data.skills.legend.title
-  ul
+.column(span="row")
+  ul.skills__list
     each item, key in data.skills.legend.itemList
       li
-        span=item.icon
+        span(class=`icon__${item.icon}`)=item.icon
         span=item.label
         span=key + 1
