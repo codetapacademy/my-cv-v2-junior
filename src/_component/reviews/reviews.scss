@@ -1,16 +1,17 @@
-.recommendation {
+.reviews {
   margin-bottom: 20px;
 }
 
-.recomandari-date {
+.laude-date {
   display: grid;
-  grid-template-columns: 64 px auto;
+  grid-template-columns: 64px auto;
   column-gap: 10px;
   grid-template-rows: 32px 32px;
   margin-bottom: 15px;
-}
+  // @extend %descriere-subcoloana;
+}  
 
-.recomandari-imagine {
+.laude-imagine {
   grid-column: 1/2;
   grid-row: 1/3;
   position: relative;
@@ -24,14 +25,10 @@
     background-size: cover;
     position: absolute;
     border: 2px solid white;
-  }
-}
+  }  
+}  
 
-.recomandari-pozitie {
-  @extend %descriere-subcoloana;
-}
-
-.recomandari-nume {
+.laude-nume {
   grid-column: 2/3;
   display: flex;
   align-items: center;
@@ -41,7 +38,14 @@
   color: #808080;
 }
 
-.recomandari-descriere {
+.laude-dataReview {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1875F0;
+  margin-top: 10px;
+}
+
+.laude-descriere {
   font-weight: 500;
   font-size: 14px;
   line-height: 30pt;
