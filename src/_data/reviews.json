@@ -1,3 +1,29 @@
 {
-  "sectionTitle": "Reviews"
+  "sectionTitle": "Reviews",
+  "laudatio": [
+    {
+      "locatieImagine": "asset/image/user-1.jpg",
+      "nume": "Marian Zburlea",
+      "data": "Senior Front End Developer",
+      "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
+    },
+    {
+      "locatieImagine": "asset/image/user-1.jpg",
+      "nume": "Răzvan Mocanu",
+      "data": "Senior Front End Developer",
+      "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
+    },
+    {
+      "locatieImagine": "asset/image/user-1.jpg",
+      "nume": "Raluca Ghintuiala",
+      "data": "Juior Front End Developer",
+      "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
+    },
+    {
+      "locatieImagine": "asset/image/user.jpg",
+      "nume": "Nicoleta Olaru",
+      "data": "Senior Manager Project",
+      "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
+    }
+  ]
 }
