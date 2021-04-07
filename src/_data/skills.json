@@ -19,5 +19,130 @@
         "label": "Skills I'd like to get better at"
       }
     ]
-  }
+  },
+  "skillTypeList": [
+    {
+      "type": "Front End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+          "label": "Less"
+        },
+        {
+          "type": "trophy",
+          "label": "Material UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SEO"
+        }
+      ]
+    },
+    {
+      "type": "Back End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "PUG"
+        },
+        {
+          "type": "heart",
+          "label": "NodeJS"
+        },
+        {
+          "type": "heart",
+          "label": "FireBase"
+        },
+        {
+          "type": "trophy",
+          "label": "GIT"
+        },
+        {
+          "type": "trophy",
+          "label": "Linux"
+        },
+        {
+          "type": "trophy",
+          "label": "Rest"
+        },
+        {
+          "type": "trophy",
+          "label": "MySQL"
+        },
+        {
+          "type": "book",
+          "label": "AWS"
+        },
+        {
+          "type": "book",
+          "label": "BlockChain"
+        },
+        {
+          "type": "book",
+          "label": "ElasticSearch"
+        },
+        {
+          "type": "book",
+          "label": "GraphQL"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "Windows"
+        },
+        {
+          "type": "heart",
+          "label": "Linux"
+        },
+        {
+          "type": "trophy",
+          "label": "Mac OXs"
+        },
+        {
+          "type": "trophy",
+          "label": "Jira"
+        },
+        {
+          "type": "book",
+          "label": "Agile"
+        },
+        {
+          "type": "book",
+          "label": "Rally"
+        }
+      ]
+    }
+  ]
 }
