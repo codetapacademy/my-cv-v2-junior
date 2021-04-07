@@ -1,2 +1,6 @@
-/*# sourceMappingURL=style.css.map */
-@import '_component/layout/layout.scss';
+// quickly reset margin, padding and box sizing to all elements
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
