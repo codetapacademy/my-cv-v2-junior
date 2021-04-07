@@ -4,25 +4,25 @@
     {
       "locatieImagine": "asset/image/user-1.jpg",
       "nume": "Marian Zburlea",
-      "data": "Senior Front End Developer",
+      "data": "25-02.2021",
       "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
     },
     {
       "locatieImagine": "asset/image/user-1.jpg",
       "nume": "Răzvan Mocanu",
-      "data": "Senior Front End Developer",
+      "data": "11-02-2021",
       "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
     },
     {
       "locatieImagine": "asset/image/user-1.jpg",
       "nume": "Raluca Ghintuiala",
-      "data": "Juior Front End Developer",
+      "data": "08-03-2021",
       "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
     },
     {
       "locatieImagine": "asset/image/user.jpg",
       "nume": "Nicoleta Olaru",
-      "data": "Senior Manager Project",
+      "data": "07-04-2021",
       "descriere": "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
     }
   ]
