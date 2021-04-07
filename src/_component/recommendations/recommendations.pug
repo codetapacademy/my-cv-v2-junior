@@ -1,0 +1,20 @@
+#recomamendations
+- var sectionTitle = data.recommendations.sectionTitle
+include ../sectiunea-titlu/sectiunea-titlu 
+.column(span="row")
+  .recomandari-continut
+    .grid__recomandari
+      each recomandari in data.recommendations.recomandari
+        .recommendation 
+          .recomandari-date 
+            .recomandari-imagine 
+              img(class="imagine", src=`${recomandari.locatieImagine}`, alt="")
+            .recomandari-nume=recomandari.nume
+            .recomandari-pozitie=recomandari.pozitie 
+          .recomandari-descriere 
+            each p in recomandari.descriere 
+              p=p
+.column(span="row")
+  .button.buton__disc-verde
+    i.icon__arrow-down
+.column(span="row" height="10")

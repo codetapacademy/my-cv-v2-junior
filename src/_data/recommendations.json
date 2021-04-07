@@ -1,0 +1,21 @@
+{
+  "sectionTitle": "Recommendations",
+  "recomandari": [
+    {
+      "locatieImagine": "asset/image/user-1.jpg",
+      "nume": "Marian Zburlea",
+      "pozitie": "Senior Front End Developer",
+      "descriere": [
+        "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
+      ]
+    },
+    {
+      "locatieImagine": "asset/image/user.jpg",
+      "nume": "Nicoleta Olaru",
+      "pozitie": "Senior Manager Project",
+      "descriere": [
+        "Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text Lorem ipsum dummy text"
+      ]
+    }
+  ]
+}
