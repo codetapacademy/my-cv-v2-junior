@@ -1,7 +1,17 @@
-#recomamendations
+#reviews
 - var sectionTitle = data.reviews.sectionTitle
-include ../sectiunea-titlu/sectiunea-titlu 
-
+include ../sectiunea-titlu/sectiunea-titlu
+.column(span="row")
+  .laude-continut
+      each laudatio in data.reviews.laudatio
+        .laude
+          .laude-data 
+            .laude-date
+              .laude-imagine 
+                img(class="imagine", src=`${laudatio.locatieImagine}`, alt="")
+              .laude-nume=laudatio.nume
+              .laude-dataReview=laudatio.dataReview
+            .laude-descriere=laudatio.descriere 
 .column(span="row")
   .button.buton__disc-verde
     i.icon__arrow-down
