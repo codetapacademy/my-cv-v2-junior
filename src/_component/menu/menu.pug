@@ -1,0 +1,19 @@
+#menu
+.column(span="row" class="desktop")
+  ul.menu__lista
+    each pagina in data.menu.pagina
+      li.menu__pagina
+        a.menu__link(href=`${baseUrl}${pagina.link}`)=pagina.titlu
+.column(span="row" class="mobile")
+  input(id="menu-desfasurat" type="checkbox")
+  ul.menu__lista
+    each pagina in data.menu.pagina
+      li.menu__pagina
+        a.menu__link(href=`${baseUrl}${pagina.link}`)=pagina.titlu
+    li.menu__pagina
+      a.menu__close
+        .text Close Menu
+        label(for="menu-desfasurat") 
+          .icon__cross
+  label(for="menu-desfasurat") 
+    .icon__menu

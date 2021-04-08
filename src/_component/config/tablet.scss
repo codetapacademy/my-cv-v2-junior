@@ -1,0 +1,63 @@
+@media (min-width: 768px) {
+    .grid {
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr); 
+    grid-gap: 16px;
+  }
+
+  .section__title-wrapper {
+    &::before {
+      left: -80px;
+      right: -80px;
+    }
+  }
+  
+  .content {
+    padding: 0 80px;
+  }
+
+  .column[span-tablet$="+4"] {
+    grid-column: auto / span 4;
+  }
+
+  .grid__connect {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: auto / span 4;
+    column-gap: 16px;
+    margin-top: 15px;
+
+    label.conectare__disc {
+      font-size: 4.5vw;
+      & .icon__codewars {
+        font-size: 6.5vw;
+      }
+    }
+  }
+
+  .lista__skills {
+    width: 50%;
+  }
+
+  .proiecte__git-displayed {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .proiecte__git-link {
+    width: 230px;
+  }
+
+  .grid__portofolio,
+  .laude-continut,
+  .grid__recomandari {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  
+    .proiect-recent {
+      grid-column: auto / span 1;
+    }
+  }
+}
