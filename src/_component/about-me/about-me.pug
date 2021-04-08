@@ -9,7 +9,7 @@ include ../section-title/section-title
 .column(span="row")
   h3.about-me__lead-title=data['about-me'].leadTitle
 .column(span="row")
-  .info-box__with-shadow
+  .description-box__with-shadow
     each description in data['about-me'].descriptionList
       p.description=description
 .column(span="row")
@@ -22,5 +22,3 @@ include ../section-title/section-title
   button.button__disc--blue
     i.icon__arrow-down
 .column(span="row" height='10px')
-
-

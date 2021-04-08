@@ -52,31 +52,32 @@ button[class^="button__disc"] i[class^="icon__"] {
 .button__disc--red {
   background-color: #d52027;
 }
-.about-me__name,
-.about-me__position {
+
+.about-me__main-title,
+.about-me__sub-title {
   font-weight: 600;
-  color: #4d4d4d;
+  color: #6d6d6d;
   text-align: center;
 }
 
-.about-me__name {
+.about-me__main-title {
   font-size: 42px;
   line-height: 68px;
 }
 
-.about-me__position {
+.about-me__sub-title {
   line-height: 40px;
   font-size: 28px;
 }
 
-.about-me__info {
+.about-me__lead-title {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
   color: #808080;
 }
 
-.info-box__with-shadow {
+.description-box__with-shadow {
   background-color: #fff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   padding: 20px;
@@ -89,4 +90,3 @@ button[class^="button__disc"] i[class^="icon__"] {
   font-weight: 600;
   line-height: 30px;
 }
-

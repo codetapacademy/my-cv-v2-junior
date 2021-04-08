@@ -1,5 +1,6 @@
 {
   "sectionTitle": "Skills",
+  "description": "As you'll have already experienced in your work with HTML and CSS, text inside an element is laid out inside the element's content box. It starts at the top left of the content area and flows towards the end of the line.",
   "legend": {
     "title": "Legend",
     "itemList": [
