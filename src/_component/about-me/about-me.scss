@@ -1,7 +1,6 @@
 .button__pill--green {
   height: 40px;
-  width: 148px;
-  margin: 0 auto;
+  width: 165px;
   color: black;
   border: 0;
   border-radius: 20px;
@@ -9,13 +8,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: bold;
+  margin-right: -8px;
+  margin-bottom: 2px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.button i[class^="icon__"] {
+button[class^="button__disc"] i[class^="icon__"] {
   height: 18px;
   width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button__pill--green {
@@ -23,80 +29,53 @@
 }
 
 .button__disc--red,
-.button__disc--purple {
+.button__disc--blue {
   width: 40px;
   height: 40px;
   margin: 0 auto;
   align-items: center;
-  display: flex;
+  display: inline-flex;
+  display: -webkit-box;
   justify-content: center;
   border: 0;
   border-radius: 50%;
   color: #fff;
 }
 
-.button__disc--purple {
-  background-color: #9f389d;
-  color: #64f10e;
+.button__disc--blue {
+  background-color: #1875f0;
+  color: #fff;
 }
 
 .button__disc--red {
   background-color: #d52027;
 }
 
-.section__title-wrapper {
-  padding: 10px;
-  height: 60px;
-  background-color: #bbbcbe;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
-  position: relative;
-
-  &::before {
-    position: absolute;
-    content: "";
-    background-color: #bbbcbe;
-    left: -36px;
-    right: -36px;
-    top: 0;
-    bottom: 0;
-  }
-}
-
-.section-title {
-  text-align: center;
-  height: 40px;
-  line-height: 40px;
-  color: #a5456c;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-}
-
-.about-me__name,
-.about-me__position {
+.about-me__main-title,
+.about-me__sub-title {
   font-weight: 600;
-  color: #4d4d4d;
+  color: #6d6d6d;
   text-align: center;
 }
 
-.about-me__name {
+.about-me__main-title {
   font-size: 42px;
   line-height: 68px;
 }
 
-.about-me__position {
+.about-me__sub-title {
   line-height: 40px;
   font-size: 28px;
 }
 
-.about-me__info {
+.about-me__lead-title {
   font-size: 20px;
   line-height: 30px;
   font-weight: 600;
   color: #808080;
 }
 
-.info-box__with-shadow {
+.description-box__with-shadow {
   background-color: #fff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   padding: 20px;
