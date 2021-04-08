@@ -1,0 +1,15 @@
+#proud
+- var sectionTitle = data.proud.sectionTitle
+include ../sectiunea-titlu/sectiunea-titlu 
+.column(span="row")
+  .continut-mandrie 
+    .titlu__mandrie=data.proud.titlu
+      .lista__calitati 
+        each calitate in data.proud.mandrie
+          .calitate 
+            .calitate__tip=calitate.calitateTip 
+            .calitate__descriere=calitate.descriere
+.column(span="row")
+  .intoarcere
+    a.buton__disc-verde(href="/#about-me")
+      i.icon__arrow-down
