@@ -1,0 +1,24 @@
+- var sectionTitle = data['about-me'].sectionTitle;
+include ../section-title/section-title
+
+.column(span="row")
+  h1.about-me__main-title=data['about-me'].mainTitle
+.column(span="row")
+  h2.about-me__sub-title=data['about-me'].subTitle
+.column(span="row" height='10px')
+.column(span="row")
+  h3.about-me__lead-title=data['about-me'].leadTitle
+.column(span="row")
+  .description-box__with-shadow
+    each description in data['about-me'].descriptionList
+      p.description=description
+.column(span="row")
+.column(span="row" height='10px')
+  .button.button__pill--green
+    i.icon__download
+    .span.text-button=data['about-me'].downloadButtonLabel
+.column(span="row")
+.column(span="row" height='10px')
+  button.button__disc--blue
+    i.icon__arrow-down
+.column(span="row" height='10px')

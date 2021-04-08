@@ -1,0 +1,69 @@
+{
+  "sectionTitle": "Let's Connect",
+  "avatarPath": "asset/image/ada-avatar.jpeg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "CodeTap",
+      "description": "CodeTap it's the best!!!:)",
+      "label": "codetap.academy/adelacecilia",
+      "link": "http://codetap.academy/adelacecilia"
+    },
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "description": "Where the world builds software!",
+      "label": "github.com/adelacecilia",
+      "link": "https://github.com/adelacecilia"
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "description": "Connecting the world's professionals to make them more productive and successful!",
+      "label": "linkedin.com/in/adasagau",
+      "link": "https://www.linkedin.com/in/adasagau//"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "StackOverflow",
+      "description": "Let's change the world, make it a better place, for you and for me!",
+      "label": "stackoverflow.com/cv/adasagau",
+      "link": "https://stackoverflow.com/cv/adasagau"
+    },
+    {
+      "icon": "codewars",
+      "title": "CodeWars",
+      "description": "Simple Fun!",
+      "label": "codewars.com/users/adasagau88",
+      "link": "https://www.codewars.com/users/adasagau88"
+    },
+    {
+      "icon": "facebook",
+      "title": "FaceBook",
+      "description": "Bring the world closer together!",
+      "label": "facebook.com/adasagau13",
+      "link": "https://www.facebook.com/adasagau13"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "description": "Capture & Share the World's Moments!",
+      "label": "instagram.com/ada__3132",
+      "link": "https://www.instagram.com/ada__3132/"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "description": "It's what's happening!",
+      "label": "twitter.com/AdaSagau",
+      "link": "https://twitter.com/AdaSagau"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "description": "Be able!",
+      "label": "udemy.com/user/cecilia-adela-sagau",
+      "link": "https://www.udemy.com/user/cecilia-adela-sagau"
+    }
+  ]
+}

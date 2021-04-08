@@ -1,0 +1,41 @@
+//- quick restart for all the elements below
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.column[span="row"] {
+  grid-column: 1/-1;
+}
+
+.column[height="10"] {
+  height: 10px;
+}
+
+.content {
+  padding: 0 36px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.text-button {
+  padding-left: 12px;
+}
+a.button__pill--green {
+  text-decoration: none;
+}
