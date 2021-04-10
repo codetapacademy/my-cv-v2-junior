@@ -115,3 +115,8 @@
     background-image: url('asset/image/avatar-constantin-matei.jpg'); //- am setat calea pozei
   }
 }
+
+.grid__connect {
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+}

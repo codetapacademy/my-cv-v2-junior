@@ -22,6 +22,10 @@ body {
   grid-column: 1/-1; // 1 este prima coloana din stanga -1 este prima coloana din dreapta
 }
 
+.column[span="1"] {
+  grid-column: span 1; // 1 este prima coloana din stanga -1 este prima coloana din dreapta
+}
+
 .column[height="10"] {
   height: 10px; //aici setez o coloana cu inaltimea de 10 pixeli
 }

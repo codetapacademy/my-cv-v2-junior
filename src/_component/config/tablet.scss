@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-    .grid {
+  .grid {
     display: grid; 
     grid-template-columns: repeat(8, 1fr); 
     grid-gap: 16px;
@@ -17,7 +17,8 @@
   }
 
   .column[span-tablet$="+4"] {
-    grid-column: auto / span 4;
+    grid-column: span 4;
+    grid-row: span 4;
   }
 
   .grid__connect {
@@ -27,12 +28,16 @@
     column-gap: 16px;
     margin-top: 15px;
 
-    label.conectare__disc {
-      font-size: 4.5vw;
-      & .icon__codewars {
-        font-size: 6.5vw;
-      }
-    }
+    // label.conectare__disc {
+    //   font-size: 4.5vw;
+    //   & .icon__codewars {
+    //     font-size: 6.5vw;
+    //   }
+    // }
+  }
+
+  .conectare__disc [class^="icon__"] {
+    font-size: 4.5vw;
   }
 
   .lista__skills {

@@ -157,6 +157,14 @@
   }
 }
 
+.stats__icon.icon__github::before {
+  color: black;
+}
+
+.stats__icon.icon__codewars::before {
+  font-size: 24px;
+}
+
 // punem margini de 10 pixeli iconitelor
 .stats__icon {
   margin: 10px;
