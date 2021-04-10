@@ -27,13 +27,6 @@
     grid-column: auto / span 4;
     column-gap: 16px;
     margin-top: 15px;
-
-    // label.conectare__disc {
-    //   font-size: 4.5vw;
-    //   & .icon__codewars {
-    //     font-size: 6.5vw;
-    //   }
-    // }
   }
 
   .conectare__disc [class^="icon__"] {
@@ -44,14 +37,35 @@
     width: 50%;
   }
 
+  #menu-desfasurat:checked + ul.menu__lista {
+    bottom: 30px;
+  }
+
+  .icon__menu.tableta {
+    display: initial;
+    position: fixed;
+    bottom: 10vw;
+    right: 4vw;
+    padding: 6px 40px 40px 6px;
+    background-color: white;
+    border: 2px solid #707070;
+    border-radius: 6px;
+    font-size: 32px;
+  }
+
   .proiecte__git-displayed {
     align-items: center;
     justify-content: center;
-    display: flex;
   }
 
   .proiecte__git-link {
     width: 230px;
+  }
+
+  .proiecte__git-link-wrapper {
+    justify-content: center;
+    align-content: center;
+    display: flex;
   }
 
   .grid__portofolio,
