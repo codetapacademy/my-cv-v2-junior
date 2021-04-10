@@ -1,15 +1,5 @@
 @media (min-width: 1025px) {
-  .content {
-    padding: 0 139px;
-  }
-  
-  .section__title-wrapper {
-    &::before {
-      left: -139px;
-      right: -139px;
-    }
-  }
-  
+
   .grid {
     display: grid; 
     grid-template-columns: repeat(12, 1fr); 
@@ -29,7 +19,18 @@
       }
     }
   }
+
+  .content {
+    padding: 0 139px;
+  }
   
+  .section__title-wrapper {
+    &::before {
+      left: -139px;
+      right: -139px;
+    }
+  }
+    
   .connect__avatar {
     transform: rotate(0deg);
   }
@@ -50,11 +51,11 @@
     }
   }
   
-  .laude-continut,
-  .grid__recomandari {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+  // .laude-continut,
+  // .grid__recomandari {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr 1fr;
+  // }
   
   ul.menu__lista {
     text-align: right;

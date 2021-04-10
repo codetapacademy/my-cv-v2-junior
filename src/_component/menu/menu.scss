@@ -23,6 +23,12 @@
     color: #808080;
   }
 
+  & .menu__close:hover,
+  & .menu__link:hover {
+    color: white;
+    background-color: #ff006d;
+  }
+
   & .menu__close {
     display: flex;
     flex-direction: row-reverse;
