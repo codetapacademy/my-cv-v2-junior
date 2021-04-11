@@ -47,6 +47,13 @@
   }
 }
 
+.column[span="icons-row"] {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+}
+
 .description-box__header {
   padding: 20px;
   display: flex;

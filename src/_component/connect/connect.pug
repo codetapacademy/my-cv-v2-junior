@@ -7,38 +7,38 @@ include ../sectiunea-titlu/sectiunea-titlu
 .column(span="row" span-tablet="1+4")
   .conectare__avatar
 
-each social, key in data.connect.socialList
-  input.conectare__radio(
-    type="radio"
-    name="conectare__eticheta"
-    id=`conectare__eticheta--${key}`
-  )
-  .column(span="1")
-    label(for=`conectare__eticheta--${key}`).conectare__disc
-      i(class=`icon__${social.icon}`)
-
-each social, key in data.connect.socialList
-  .column(span="row" data-description-box=key+1)
-    .description-box__with-arrow
-      .description-box__header
-        .description-box__title= social.title
-        .description-box__close
-          input.conectare__radio(
-            type="radio"
-            name="conectare__eticheta"
-            id="conectare__eticheta--reset"
+.column(span="icons-row")
+  each social, key in data.connect.socialList
+    input.conectare__radio(
+      type="radio"
+      name="conectare__eticheta"
+      id=`conectare__eticheta--${key}`
+    )
+    .column(span="1")
+      label(for=`conectare__eticheta--${key}`).conectare__disc
+        i(class=`icon__${social.icon}`)
+  each social, key in data.connect.socialList
+    .column(span="row" data-description-box=key+1)
+      .description-box__with-arrow
+        .description-box__header
+          .description-box__title= social.title
+          .description-box__close
+            input.conectare__radio(
+              type="radio"
+              name="conectare__eticheta"
+              id="conectare__eticheta--reset"
+            )
+            label.conectare__disc(for="conectare__eticheta--reset")
+              i.icon__cross
+        .description-box__body
+          p.description-box__paragraf= social.description
+        .description-box__footer
+          a.pastiluta-albastra(
+            href=social.link
+            target="_blank"
           )
-          label.conectare__disc(for="conectare__eticheta--reset")
-            i.icon__cross
-      .description-box__body
-        p.description-box__paragraf= social.description
-      .description-box__footer
-        a.pastiluta-albastra(
-          href=social.link
-          target="_blank"
-        )
-          i.icon__link
-          span.cta-text= social.label
+            i.icon__link
+            span.cta-text= social.label
 .column(span="row" height="10")
 .column(span="row")
   .buton__disc-verde

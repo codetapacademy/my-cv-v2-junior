@@ -51,12 +51,29 @@
     }
   }
   
-  // .laude-continut,
-  // .grid__recomandari {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr 1fr;
-  // }
-  
+  .column[span="row"] {
+    grid-column: span 9; 
+  }
+
+  .column[titlu="titlu"] {
+    grid-column: 1/-1;
+  }
+
+  .column[span-tablet="1+4"] {
+    grid-column: span 4;
+  }
+
+  .column[span="icons-row"] {
+    grid-column: span 5;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+  }
+
+  .conectare__disc [class^="icon__"] {
+    font-size: 2.5vw;
+  }
+
   ul.menu__lista {
     text-align: right;
     display: block;
