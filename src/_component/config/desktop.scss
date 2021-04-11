@@ -80,8 +80,16 @@
     position: fixed;
     width: auto;
     height: auto;
-    top: 185px;
-    right: 130px
+    top: 130px;
+    right: 130px;
+  }
+
+  .menu__lista {
+    margin: 8px;
+  }
+
+  .conectare__avatar {
+    transform: rotate(0deg);
   }
 
   .mobile {
