@@ -47,6 +47,13 @@
   }
 }
 
+.column[span="icons-row"] {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
 .description-box__header {
   padding: 20px;
   display: flex;
@@ -83,7 +90,7 @@
   [class^="icon__"] {
     width: 100%;
     height: 100%;
-    font-size: 10vw;
+    font-size: 8vw;
     top: 0;
     bottom: 0;
     left: 0;
@@ -114,4 +121,9 @@
     background-size: cover; //- am setat dimensiunea pozei in frame
     background-image: url('asset/image/avatar-constantin-matei.jpg'); //- am setat calea pozei
   }
+}
+
+.grid__connect {
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
 }

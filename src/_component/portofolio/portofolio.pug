@@ -1,8 +1,10 @@
 #portofolio
 - var sectionTitle = data.portofolio.sectionTitle
-include ../sectiunea-titlu/sectiunea-titlu 
+include ../sectiunea-titlu/sectiunea-titlu
+//- .portofoliu-continut 
 .column(span="row")
   .recente=data.portofolio.recente.titlu
+  .grid__portofolio
 .column(span="row" height="10")
 .column(span="row")
   each proiecteRecente in data.portofolio.recente.proiecteRecente
@@ -42,8 +44,7 @@ include ../sectiunea-titlu/sectiunea-titlu
         src=`${proiecteVechi.locatieImagine}`
         alt="masha invata"
       )
+.column(span="row" height="10")
   .button.buton__disc-verde
     i.icon__arrow-down
 .column(span="row" height="10")
-
-

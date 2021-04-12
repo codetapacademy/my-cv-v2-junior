@@ -118,11 +118,11 @@
 }
 
 .proiecte__git-proiect {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: 700;
   color: #808080;
   line-height: 20px;
-  margin: 10px;
+  padding: 10px 20px;
 }
 
 .proiecte__git-limbaj {
@@ -155,6 +155,14 @@
   &:not(:last-child) {
     @extend %list-item;
   }
+}
+
+.stats__icon.icon__github::before {
+  color: black;
+}
+
+.stats__icon.icon__codewars::before {
+  font-size: 24px;
 }
 
 // punem margini de 10 pixeli iconitelor

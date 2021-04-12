@@ -7,6 +7,7 @@
   grid-template-columns: 64 px auto;
   column-gap: 10px;
   grid-template-rows: 32px 32px;
+  grid-template-columns: 64px auto;
   margin-bottom: 15px;
 }
 
@@ -16,7 +17,8 @@
   position: relative;
   box-shadow: 0 0px 6px rgba(0, 0, 0, 0.16);
   border-radius: 50%;
-
+  width: 64px;
+  
   & .imagine {
     width: 64px;
     height: 64px;
@@ -27,9 +29,9 @@
   }
 }
 
-.recomandari-pozitie {
-  @extend %descriere-subcoloana;
-}
+// .recomandari-pozitie {
+//   @extend %descriere-subcoloana;
+// }
 
 .recomandari-nume {
   grid-column: 2/3;

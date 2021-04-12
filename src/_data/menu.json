@@ -1,0 +1,40 @@
+{
+  "pagina": [
+    {
+      "titlu": "About Me",
+      "link": "#about-me"
+    },
+    {
+      "titlu": "Let's Connect",
+      "link": "#connect"
+    },
+    {
+      "titlu": "Skills",
+      "link": "#skills"
+    },
+    {
+      "titlu": "Experience",
+      "link": "#experience"
+    },
+    {
+      "titlu": "Open Source",
+      "link": "#open-source"
+    },
+    {
+      "titlu": "Portfolio",
+      "link": "#portofolio"
+    },
+    {
+      "titlu": "Recommendations",
+      "link": "#recommendations"
+    },
+    {
+      "titlu": "Reviews",
+      "link": "#reviews"
+    },
+    {
+      "titlu": "I'm Proud",
+      "link": "#proud"
+    }
+  ]
+}

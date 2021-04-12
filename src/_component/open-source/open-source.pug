@@ -3,6 +3,7 @@
 //- pentru a scrie cod JavaScript in pug folosim semnul -, daca dorim sa scriem mai multe linii de cod JavaScript dupa - dam enter si indentam cu un tab
 include ../sectiunea-titlu/sectiunea-titlu 
 //- am importat fisierul sectiunea-titlu.pug din folderul _component care contine folderul sectiunea-titlu
+//- .open-source-continut
 .column(span="row")
   h3.despre-mine__subtitlu=data['open-source'].subtitlu
 .column(span="row")
@@ -44,8 +45,8 @@ include ../sectiunea-titlu/sectiunea-titlu
               span.icon__github 
               span.project-link=project.gitLink
         .proiecte__git-color-bar
-           each culoare in project.colorBar
-             span(class=`linie-${culoare.color}` style=`width: ${culoare.percent}%; background-color: ${culoare.color};`)
+          each culoare in project.colorBar
+            span(class=`linie-${culoare.color}` style=`width: ${culoare.percent}%; background-color: ${culoare.color};`)
         .git__roz-icons
           label(for=`git__roz-icons-${key}`).container-roz
             i.icon__info 
