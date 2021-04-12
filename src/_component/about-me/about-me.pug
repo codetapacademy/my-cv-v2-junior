@@ -1,0 +1,34 @@
+#about-me
+- 
+  var { 
+    sectionTitle, 
+    titluMare, 
+    titlu, 
+    subtitlu, 
+    descriptionList, 
+    downloadButtonLabel, 
+  } = data['about-me']
+//- pentru a scrie cod JavaScript in pug folosim semnul -, daca dorim sa scriem mai multe linii de cod JavaScript dupa - dam enter si indentam cu un tab
+include ../sectiunea-titlu/sectiunea-titlu 
+//- am importat fisierul sectiunea-titlu.pug din folderul _component care contine folderul sectiunea-titlu
+//- .about-me-continut
+.column(span="row")
+  h1.despre-mine__titlu-mare= titluMare
+  h2.despre-mine__titlu= titlu
+.column(span="row" height="10")
+.column(span="row")
+  h3.despre-mine__subtitlu= subtitlu
+.column(span="row")
+  .description-box__with-shadow
+    each descrierejs in descriptionList
+      p.descriere=descrierejs
+.column(span="row" height="10")
+.column(span="row")
+  button.pastiluta-albastra
+    i.icon__download
+    span.cta-text= downloadButtonLabel
+.column(span="row" height="10")
+.column(span="row")
+  .button.buton__disc-verde
+    i.icon__arrow-down
+.column(span="row" height="10")

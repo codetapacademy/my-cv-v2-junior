@@ -1,0 +1,99 @@
+@media (min-width: 1025px) {
+
+  .grid {
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr); 
+    grid-gap: 16px;
+
+    .about-me-continut,
+    .skills-continut,
+    .experienta-continut,
+    .open-source-continut,
+    .portofolio-continut,
+    .reviews-continut,
+    .recomandari-continut,
+    .continut-mandrie {
+      grid-column: 1/10;
+      .column[span="row"] {
+        grid-column: 1/10;
+      }
+    }
+  }
+
+  .content {
+    padding: 0 139px;
+  }
+  
+  .section__title-wrapper {
+    &::before {
+      left: -139px;
+      right: -139px;
+    }
+  }
+    
+  .connect__avatar {
+    transform: rotate(0deg);
+  }
+  
+  .grid__connect {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column: auto / span 5;
+    column-gap: 16px;
+    margin-top: 15px;
+
+    label.conectare__disc {
+      font-size: 2.8vw;
+
+      & .icon__codewars {
+        font-size: 4.05vw;
+      }
+    }
+  }
+  
+  .column[span="row"] {
+    grid-column: span 9; 
+  }
+
+  .column[titlu="titlu"] {
+    grid-column: 1/-1;
+  }
+
+  .column[span-tablet="1+4"] {
+    grid-column: span 4;
+  }
+
+  .column[span="icons-row"] {
+    grid-column: span 5;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+  }
+
+  .conectare__disc [class^="icon__"] {
+    font-size: 2.5vw;
+  }
+
+  ul.menu__lista {
+    text-align: right;
+    display: block;
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 130px;
+    right: 130px;
+  }
+
+  .menu__lista {
+    margin: 8px;
+  }
+
+  .conectare__avatar {
+    transform: rotate(0deg);
+  }
+
+  .mobile {
+    display: none;
+  }
+
+}
