@@ -76,12 +76,12 @@
 
   ul.menu__lista {
     text-align: right;
-    display: block;
+    display: none;
     position: fixed;
     width: auto;
     height: auto;
-    top: 130px;
-    right: 130px;
+    // top: 130px;
+    // right: 130px;
   }
 
   .menu__lista {
@@ -92,7 +92,7 @@
     transform: rotate(0deg);
   }
 
-  .mobile {
+  .image-device {
     display: none;
   }
 

@@ -1,0 +1,142 @@
+.section__title {
+  line-height: 40px;
+  height: 40px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+.section__title-wrapper {
+  background-color: #d52027;
+  padding: 10px 46px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+
+  &::before {
+    content: "";
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    background-color: #d52027;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -36px;
+    right: -36px;
+  }
+
+  &::after {
+    content: "";
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.inchis {
+  width: 40px;
+  height: 40px;
+  background-color: #1875f0;
+  color: white;
+  border-radius: 50%;
+  position: fixed;
+  top: 10px;
+  right: 16px;
+}
+
+.portret {
+  display: none;
+  transition: 0.25s;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  padding-left: 36px;
+  padding-right: 36px;
+
+  .disc__albastru {
+    background-color: #1875f0;
+    margin-bottom: 0;
+  }
+
+  .portret__continut {
+    padding-top: 140px;
+    text-align: center;
+    .image-device {
+      width: 150px;
+      animation-duration: 5s;
+      animation-name: deviceRotation;
+      animation-iteration-count: infinite;
+      transform: rotate(0deg);
+    }
+
+    @keyframes deviceRotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(90deg);
+      }
+    }
+
+    .youtube__video img {
+      width: 100%;
+      // height: 250px;
+      display: block;
+      margin: auto;
+      padding-top: 7px;
+    }
+  }
+
+}
+
+.youtube__checkbox {
+  display: none;
+
+  &:checked {
+    ~ .portret {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      .inchis {
+        .disc__albastru {
+          .icon__cross {
+            display: block;
+            font-size: 40px;
+            align-items: center;
+            justify-items: center;
+          }
+        }
+      }
+    }
+
+    ~ .content {
+      overflow: hidden;
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  .portret .portret__continut {
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+
+    .image-device {
+      display: none;
+    }
+
+    .youtube__video img {
+      height: 100%;
+    }
+  }
+}

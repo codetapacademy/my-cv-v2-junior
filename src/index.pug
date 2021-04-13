@@ -6,10 +6,20 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
 
     //- Here I insert Page Title
-    title Pagina de acasa
+    title Constantin Matei - Junior Web Developer
     link(rel="stylesheet", href="style.css")
   //- Here start content of my page
-  body
+  body 
+    input.youtube__checkbox(type="checkbox" id="portret" name="portret")
+    .portret
+      .inchis
+        label(for="portret").disc__albastru
+          i.icon__cross
+      .portret__continut
+        img(src="asset/image/mobil.png", alt="").image-device
+        a.youtube__video(href="https://www.youtube.com/watch?v=JBTzRlXJh1E&list=PLlgRhtOkjmmCrwpmciCFcDNaFh7JnVPhO")
+          img(src="asset/image/youtube.png", alt="")
+
     .content 
       .grid
         include _component/about-me/about-me
