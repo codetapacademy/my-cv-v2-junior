@@ -69,7 +69,7 @@
             "projectStatInfo":"Forks: --"
           }
         ],
-        "projectInfo":"fdssd",
+        "projectInfo":"I have actively learned and applied HTML5, CSS3, JavaScript",
         "projectIcon":{
           "importantIcon":"info",
           "extraIcon":[
@@ -85,21 +85,22 @@
         },
         "projectLink":{
           "icon":"github",
-          "description":"https://github.com/blowymind99/my-cv-v2-junior"
+          "description":"Sebastian/my-cv-V2-junior",
+          "link": "https://github.com/blowymind99/my-cv-v2-junior" 
         }
       },
       {
         "projectName":"My Cv V2 Starter",
         "skillsGained":[
           {
-            "skillName":"HTML",
+            "skillName":"JavaScript",
             "precentage":"100",
-            "color":"#F0E218"
+            "color":" #1875F0"
           },
           {
-            "skillName":"JavaScript",
+            "skillName":"HTML",
             "precentage":"--",
-            "color":"#1875F0"
+            "color":"#F0E218"
           },
           {
             "skillName":"Css",
@@ -133,7 +134,8 @@
         },
         "projectLink":{
           "icon":"github",
-          "description":"https://github.com/blowymind99/my-cv-v2-starter"
+          "description":"Sebastian/my-cv-V2-starter",
+          "link":"https://github.com/blowymind99/my-cv-v2-starter"
         }
       }
     ]

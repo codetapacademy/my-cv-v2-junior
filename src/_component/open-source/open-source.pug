@@ -45,6 +45,14 @@ include ../section-title/section-title
                 .open__stat-icon 
                   i(class=`icon__${projectStat.projectStatIcon}`) 
                 .open_stat-info=projectStat.projectStatInfo 
+          li.open__project-description=project.projectInfo 
+          li.open__project-link 
+            a(
+              href=project.projectLink.link 
+              target="_blank"
+            ).open__blue 
+              i(class=`icon_${project.projectLink.icon}`)
+              span.button-continut=project.projectLink.description
         
       
 
