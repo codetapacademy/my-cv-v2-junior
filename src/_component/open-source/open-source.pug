@@ -1,8 +1,10 @@
-- var sectionTitle = data['open-source'].sectionTitle;
+-
+  var sectionTitle = data['open-source'].sectionTitle
+  var title = data['open-source'].stats.title
 include ../section-title/section-title
 
 .column(span="row")
-    .open__stats=data['open-source'].stats.title
+    .open__stats= title
 .column(span="row")
     ul.open__list 
         each item in data['open-source'].stats.statsList
@@ -12,3 +14,42 @@ include ../section-title/section-title
                     each info in item.description 
                       p=info
 .column(span="row")
+    .open__projects=data['open-source'].projects.projectName
+    each project, key in data['open-source'].projects.project
+        input(
+            type="checkbox"
+            id=`project_checkbox--${key}`
+            ).open__checkbox
+        .open__projects-item 
+            .open__projects-name=project.projectName
+            .open__skills-list 
+                each skill in project.skillsGained 
+                    span.open__skill-item=skill.skillName + " "
+            .open__projects-stats
+                each item in project.skillsGained 
+                    span(
+                        class=`coloana-${item.skillName}`
+                        style=`width: ${item.percentage}%`
+                    )
+            .ul.open__body 
+                li 
+                    .open__dots 
+                        each item in project.skillsGained 
+                            .open__dot 
+                                .open__dot-color(style=`background-color: ${item.color}`)
+                                .open__dot-name=`${item.skillName} ${item.percentage}%`
+                li.open__data 
+                    each projectStat in project.projectStats 
+                        .open__stats 
+                            .open__stats-icon 
+                                i(class=`icon__${projectStat.projectStatIcon}`)
+                            .open__stats-info=projectStat.projectStatInfo 
+                li.open__project-description=project.projectInfo
+                li.open__project-pug-link 
+                    a(
+                    href=project.projectLink.link 
+                    target="_blank"
+                    ).open__light-blue
+                        i(class='icon__${project.projectLink.icon}')
+                        span.button-inside=project.projectLink.description
+                            

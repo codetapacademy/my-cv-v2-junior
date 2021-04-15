@@ -14,3 +14,33 @@
     font-weight: 600;
     color: #808080;
 }
+
+%skills-list {
+    line-height: 20px;
+    font-size: 13px;
+    font-style: italic;
+    padding: 0 20px 10px 20px;
+}
+
+%project-name {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+%button-press {
+    height: 40px;
+    margin: 0 auto;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 0 24px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bolder;
+    background-color: #1875f0;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+}

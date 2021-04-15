@@ -1,33 +1,137 @@
 {
-    "sectionTitle" : "Open Source",
-    "stats" : {
-        "title":"Stats",
-        "statsList": [
-            {
-                "icon": "github",
-                "description": [
-                    "Contributiion last year: 0",
-                    "Longest streak: 0"
-                ]
-            },
-            {
-                "icon": "codewars",
-                "description": [
-                    "Rank: 1",
-                    "Honnor: 1"
-                ]
-            
-            },
-            {
-                "icon": "stackoverflow",
-                "description":[
-                    "Top: 2",
-                    "Reputation: 2",
-                    "People reached: 2",
-                    "Answers: 2"
-
-                ]
-            }
+  "sectionTitle": "Open Source",
+  "stats": {
+    "title": "Stats",
+    "statsList": [
+      {
+        "icon": "github",
+        "description": ["Contributiion last year: 0", "Longest streak: 0"]
+      },
+      {
+        "icon": "codewars",
+        "description": ["Rank: 1", "Honnor: 1"]
+      },
+      {
+        "icon": "stackoverflow",
+        "description": [
+          "Top: 2",
+          "Reputation: 2",
+          "People reached: 2",
+          "Answers: 2"
         ]
-    }
+      }
+    ]
+  },
+  "projects": {
+    "projectName": "GitHub projects",
+    "project": [
+      {
+        "projectName": "My Cv V2 Junior",
+        "skillsGained": [
+          {
+            "skillName": "HTML",
+            "percentage": "0",
+            "color": "#F0E218"
+          },
+          {
+            "skillName": "JavaScript",
+            "percentage": "0",
+            "color": "#1875F0"
+          },
+          {
+            "skillName": "TypeScript",
+            "percentage": "0",
+            "color": "#20D55D"
+          },
+          {
+            "skillName": "CSS",
+            "percentage": "0",
+            "color": "#D52027"
+          }
+        ],
+        "projectStats": [
+          {
+            "projectStatIcon": "commits",
+            "projectStatInfo": "Commits:0"
+          },
+          {
+            "projectStatIcon": "stars",
+            "projectStatInfo": "Stars:0"
+          },
+          {
+            "projectStatIcon": "forks",
+            "projectStatInfo": "Forks:0"
+          }
+        ],
+        "projectInfo": "Info My Cv V2 Junior",
+        "projectIcon": {
+          "importantIcon": "info",
+          "extraIcon": [
+            {
+              "icon": "github",
+              "link": "https://github.com/andreimaff/my-cv-v2-junior"
+            },
+            {
+              "icon": "youtube",
+              "link": "https://www.youtube.com/watch?v=SBY_ggitxEg"
+            }
+          ]
+        },
+        "projectLink": {
+          "icon": "Github",
+          "description": "andreimaff/my-cv-v2-junior",
+          "link": "https://github.com/andreimaff/my-cv-v2-junior"
+        }
+      },
+      {
+        "projectName": "My Cv V2 Starter",
+        "skillsGained": [
+          {
+            "skillName": "HTML",
+            "percentage": "0",
+            "color": "#F0E218"
+          },
+          {
+            "skillName": "JavaScript",
+            "percentage": "0",
+            "color": "#1875F0"
+          },
+          {
+            "skillName": "CSS",
+            "percentage": "0",
+            "color": "#D52027"
+          }
+        ],
+        "projectStats": [
+          {
+            "projectStatIcon": "commits",
+            "projectStatInfo": "Commits: 0"
+          },
+          {
+            "projectStatIcon": "stars",
+            "projectStatInfo": "Stars:0"
+          },
+          {
+            "projectStatIcon": "forks",
+            "projectStatInfo": "Forks: 0"
+          }
+        ],
+        "projectInfo": "Info My Cv V2 Starter",
+        "projectIcon": {
+          "importantIcon": "info",
+          "extraIcon": [
+            {
+              "icon": "Github",
+              "link": "https://github.com/andreimaff/my-cv-v2-starter"
+            }
+          ]
+        },
+        "projectLink": {
+          "icon": "Github",
+          "description": "andreimaff/my-cv-v2-starter",
+          "link": "https://github.com/andreimaff/my-cv-v2-starter"
+        }
+      }
+    ]
+  }
 }
