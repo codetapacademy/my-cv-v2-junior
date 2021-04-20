@@ -1,0 +1,27 @@
+{
+  "sectionTitle": "Experience",
+  "jobList": [
+    {
+      "jobTitle": "Starter Web Developer",
+      "startDate": "2020 August",
+      "endDate": "2020 November",
+      "iconPath": "bit-bee.png",
+      "companyName": "BitBee",
+      "moreInfoList": [
+        "esklfjiekgjiekfjjdfheisjfeksjdf",
+        "hedfueifhdiufheiufhuierhfuie"
+      ]
+    },
+    {
+      "jobTitle": "Junior Web Developer",
+      "startDate": "2020 November",
+      "endDate": "Present",
+      "iconPath": "chemist-direct.png",
+      "companyName": "Chemist Direct",
+      "moreInfoList": [
+        "esklfjiekgjiekfjjdfheisjfeksjdf",
+        "hedfueifhdiufheiufhuierhfuie"
+      ]
+    }
+  ]
+}
