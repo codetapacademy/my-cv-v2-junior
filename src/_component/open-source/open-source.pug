@@ -22,10 +22,10 @@ include ../section-title/section-title
         id=`project_checkbox--${key}`
           ).open__checkbox
       .project__item
-        .project__name= project.projectName
+        .project__name=project.projectName
         .open__skill-list
           each skill in project.skillsGained 
-            span.skill__name= skill.skillName+ " "
+            span.skill__name=skill.skillName + " "
         .project__percentage 
           each item in project.skillsGained 
             span(
@@ -38,7 +38,7 @@ include ../section-title/section-title
               each item in project.skillsGained 
                 .open_dot 
                   .open__dot-color(style=`background-color: ${item.color}`)
-                  .open__dot-name=item.skillName+ " "+item.precentage+ "%"
+                  .open__dot-name=`${item.skillName} ${item.precentage}%`
           li.open__data 
             each projectStat in project.projectStats 
               .open__stat
@@ -53,6 +53,17 @@ include ../section-title/section-title
             ).open__blue 
               i(class=`icon_${project.projectLink.icon}`)
               span.button-continut=project.projectLink.description
+      .open__buttons 
+        .open 
+          label(for=`open__checkbox--${key}`).open__info-essential
+            i.icon__info 
+        .close 
+          label(for=`open__checkbox--${key}`).open__info-essential
+            i.icon__cross 
+        each  extraIcon in project.projectIcon.extraIcon 
+          a.open__info-extra(href=`${extraIcon.link}` target="_blank")
+            i(class=`icon__${extraIcon.icon}`)
+        
         
       
 
