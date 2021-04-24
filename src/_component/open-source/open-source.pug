@@ -19,8 +19,8 @@ include ../section-title/section-title
   each project, key in data[`open-source`].projects.project  
       input(
         type="checkbox"
-        id=`project_checkbox--${key}`
-          ).open__checkbox
+        id=`project__checkbox--${key}`
+      ).open__checkbox
       .project__item
         .project__name=project.projectName
         .open__skill-list
@@ -55,15 +55,20 @@ include ../section-title/section-title
               span.button-continut=project.projectLink.description
       .open__buttons 
         .open 
-          label(for=`open__checkbox--${key}`).open__info-essential
+          label(for=`project__checkbox--${key}`).open__info-essential
             i.icon__info 
         .close 
-          label(for=`open__checkbox--${key}`).open__info-essential
+          label(for=`project__checkbox--${key}`).open__info-essential
             i.icon__cross 
         each  extraIcon in project.projectIcon.extraIcon 
           a.open__info-extra(href=`${extraIcon.link}` target="_blank")
             i(class=`icon__${extraIcon.icon}`)
         
-        
+            
+.column(span="row")
+     button.button__disc-green 
+      i.icon__arrow-down 
+.column(span="row" height="10")
+
       
 
